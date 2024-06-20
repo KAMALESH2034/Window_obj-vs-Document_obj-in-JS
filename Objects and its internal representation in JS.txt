@@ -41,4 +41,4 @@ Internal Representation of Objects:
 	To understand how JavaScript objects work under the hood, it's
  essential to delve into their internal representation. JavaScript engines,
  such as V8 (used in Chrome and Node.js), employ various optimization 
-techniques to manage objects efficiently. 
+techniques to manage objects efficiently.  

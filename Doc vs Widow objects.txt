@@ -98,4 +98,4 @@ but document obj directly linked to the HTML document and the DOM. so we can dyn
 purpose. The window obj represents the browser window and provides methods and properties for
  controlling it.
 Document obj represengs the HTML document and enables interaction with its content. using the both
- object in a efficient way we can build more user-friendly and interactive web pages.
+ object in a efficient way we can build more user-friendly and interactive web pages. 
