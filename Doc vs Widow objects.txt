@@ -99,5 +99,3 @@ purpose. The window obj represents the browser window and provides methods and p
  controlling it.
 Document obj represengs the HTML document and enables interaction with its content. using the both
  object in a efficient way we can build more user-friendly and interactive web pages.
-
-
