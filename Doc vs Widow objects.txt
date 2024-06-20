@@ -1,0 +1,103 @@
+				Document Object Vs Window object
+
+	In web development java script has a important role in creating web pages which is 
+dynamic and interactive. Window object and Document object are the two main objects that every
+ web developer frequently uses. Even these two objects are similar, they give different purpose 
+and have distinct roles inside the browser environment. And these objects are the essential
+ components of the Document Object Model (DOM) in web. So we will explore and compare these 
+two objects with their properties, methods, and their intractability in context of a web page.
+
+*WINDOW OBJECT:
+---------------
+	It is a global object in the client - side JS, it representsthe browser window which 
+has a DOM document and acts as the root of the Document obj model. 
+Window object is well supported by all browsers, it represent the browsers window and will 
+automatically includes global objects, functions and variables as its members.
+ Window object is responsible in managing global variables, functions, and objects,and providing
+ methods for browser interaction and also manages properties related to frames, tabs, windows.
+ 
+  KEY PROPERTIES & METHODS OF WINDOW OBJECTS:
+
+     1.Global Scope: 
+	In a browser, global variables and functions declared with var are properties of the
+	 window object:
+  
+	- var global_Var = "Hello World";
+	- console.log(window.global_Var); // Output: "Hello World".
+
+     2.Window Dimensions:
+	- window.innerWidth :returns interiorwidth of windows content area
+	- window.innerHeight:returns height of windows content area
+
+     3.Window management:
+	Used for managing the browser window.
+          -window.open()
+	  -window.close()
+	  -window.moveTo()
+	  -window.resizeTo()
+
+     4.Timers
+	Methods used to execute code after a delay or at regular intervals
+	  -windows.setTimeout()
+	  -window.setInterval()
+
+
+
+*DOCUMENT OBJECT:
+-----------------
+	The Document object represents the HTML document loaded in the browser window.
+ It provides access to the DOM ( Document Object Model), which is used in creating 
+a Dynamic web pages. Document objects allows as to manioulate the content, structure
+ and style of the web page which makes the web page more interactive.
+Then browser generates a Document object model of web page upon loading it.
+
+The DOM is a platform-neutral interface that enables dynamic access and updating
+ of a web pages content, structure and style.
+
+DOM converts the HTML page into a logical tree in which every element of the html page
+ is turned into a node that links to other attirbutes or value or link and makes document 
+object a the root node. These Node tree allows dynamic updates and interactions with
+ web page content.
+
+
+ KEY PROPERTIES & METHODS OF WINDOW OBJECTS:
+
+      1.Accessing Elements
+	 these are used to access elemnts in DOM: 
+	   -documents.getElementbyId()
+	   -document.getElementsByClassname()
+	   -document.querySelector()
+	   -document.querySelectorAll()
+
+      2.Creating Elements:
+	   - document.createElement() - it is used to create new elemnts dynamically.
+
+   
+
+*KEY DIFFERENCES BETWEEN WINDOW AND DOCUMENT OBJECTS:
+-----------------------------------------------------
+
+1. The window obj is the top-level object in the browser's JavaScript hierarchy. it represents 
+the entire browser window. document object is a property of the window object. It represents the
+ content of the web page loaded in the browser window.
+
+2. Window obj provides methods & properties for manipulating the browser window and execution 
+global tasks like handling timers, window size and responding to browser events. whereas Document
+ object provide metjods and properties to interact with the content of the web page. Document 
+obj allows us to access and manipulate HTML elemnts, document information and many.
+
+3. Window obj can influence the appearance and behaviour of the browser window, it doesn't interact
+ with the content of HTML doctument directly.
+but document obj directly linked to the HTML document and the DOM. so we can dynamically manipulate
+ the documents structure,c content and style.
+
+
+*CONCLUSION:
+------------
+ Both window and document objects are integral to web development using Java script, with different 
+purpose. The window obj represents the browser window and provides methods and properties for
+ controlling it.
+Document obj represengs the HTML document and enables interaction with its content. using the both
+ object in a efficient way we can build more user-friendly and interactive web pages.
+
+
